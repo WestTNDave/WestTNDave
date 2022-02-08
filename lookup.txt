@@ -1,3 +1,20 @@
-if (a == "TwitchName"){"Custom greeting for relevant user";}
-else if (a == "OtherTwitchName"){"Other custom greeting for relevant user";}
-else {"" + a + " was not found";}
+var retStr = "";
+const xhttp = new XMLHttpRequest();
+xhttp.onload = function() {myFunction(this);}
+xhttp.open("GET", "user_lookup.xml");
+xhttp.send();
+
+function myFunction(xml) {
+  const xmlDoc = xml.responseXML;
+  const x = xmlDoc.getElementsByTagName("user");
+  for (let i = 0; i <x.length; i++) {
+    "Twitch User " + 
+    x[i].getElementsByTagName("twitch")[0].childNodes[0].nodeValue +
+    " is " +
+    x[i].getElementsByTagName("global")[0].childNodes[0].nodeValue +
+    " on global poker. " + 
+    x[i].getElementsByTagName("note")[0].childNodes[0].nodeValue +;
+  }
+}
+
+retStr;
