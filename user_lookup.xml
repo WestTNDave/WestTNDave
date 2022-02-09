@@ -1,12 +1,12 @@
-**users**
-  **user**
-    **twitch**WestTNDave**twitch**
-    **global**WestTNCowboy**global**
-    **note**The no delay live streamer**note**
-  **user**
-  **user**
-    **twitch**jimmy140**twitch**
-    **global**jimmy140poker**global**
-    **note**Red Tag Payers tilt this player**note**
-  **user**
-**users**
+%%users%%
+  %%user%%
+    %%twitch%%WestTNDave%%twitch%%
+    %%global%%WestTNCowboy%%global%%
+    %%note%%The no delay live streamer%%note%%
+  %%user%%
+  %%user%%
+    %%twitch%%jimmy140%%twitch%%
+    %%global%%jimmy140poker%%global%%
+    %%note%%Red Tag Payers tilt this player%%note%%
+  %%user%%
+%%users%%
