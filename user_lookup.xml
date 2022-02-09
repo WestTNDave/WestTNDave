@@ -1,8 +1,9 @@
 var xml = "";
 xml += "<users>";
 xml += "<user><twitch>WestTNDave</twitch><global>WestTNCowboy</global><note>The no delay live streamer</note></user>";
-xml += "<user><twitch>jimmy140</twitch><global>jimmy140poker</global><note>Red Tag Payers tilt this player</note></user>";
+xml += "<user><twitch>jimmy140</twitch><global>jimmy140poker</global><note>Red Tag player tilt this dude</note></user>";
 xml += "<user><twitch>highstakes69</twitch><global>AngryInbred</global><note></note></user>";
 xml += "<user><twitch>MrBillinFla</twitch><global>CLEVE-WILL</global><note></note></user>";
+xml += "<user><twitch>Chawell</twitch><global>Chawell</global><note>One crzay lucky crusher.</note></user>";
 xml += "</users>";
 xml;
