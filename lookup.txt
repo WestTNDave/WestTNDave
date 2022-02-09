@@ -1,14 +1,2 @@
-var retStr = "";
-var xml = new window.DOMParser().parseFromString(xmlStr, "text/xml");
-var  x = xml.getElementsByTagName("user");
-for (let i = 0; i <x.length; i++) {
-    retStr +=
-    "Twitch User " + 
-    x[i].getElementsByTagName("twitch")[0].childNodes[0].nodeValue +
-    " is " +
-    x[i].getElementsByTagName("global")[0].childNodes[0].nodeValue +
-    " on global poker. " + 
-    x[i].getElementsByTagName("note")[0].childNodes[0].nodeValue +
-    "\n";
-  }
+var retStr = "Dave success";
 retStr;
