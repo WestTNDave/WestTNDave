@@ -15,7 +15,15 @@ else
   }
   else
   {
-    retStr = "global name";
+    retStr = "Global Pooker User: " + xmlStr.substr(xmlUserCharPos, u.length);
+    var startPosforTwitch = xmlUserCharPos-50;
+    if (startPosforTwitch < 0)
+    {
+      startPosforTwitch = 0;
+    }
+    var xmlOpenTwitchCharPos = xmlStr.indexOf("<twitch>", startPosforTwitch);
+    var xmlCloseTwitchCharPos = xmlStr.indexOf("</twitch>", startPosforTwitch);
+    retStr += " is " + xmlStr.substr(xmlOpenTwitchCharPos + 8, xmlCloseTwitchCharPos - xmlOpenTwitchCharPos - 8) + " on Twitch. ";
   }
   var xmlOpenNoteCharPos = xmlStr.indexOf("<note>", xmlUserCharPos);
   var xmlCloseNoteCharPos = xmlStr.indexOf("</note>", xmlUserCharPos);
