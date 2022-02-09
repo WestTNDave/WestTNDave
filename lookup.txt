@@ -1,3 +1,19 @@
 var retStr = "";
-var xmlUserIndex = xmlStr.indexOf(u);
-retStr = xmlUserIndex;
+var xmlUserCharPos = xmlStr.indexOf(u);
+if(-1 == xmlUserCharPos)
+{
+  retStr = "No information on user: " + u + " was not found.";
+}
+else
+{
+  if("<twitch>" == xmlStr.substr(xmlUserCharPos-8, 8))
+  {
+    retStr = "Twitch User: " + xmlStr.substr(xmlUserCharPos, u.length))'
+    retStr += " is " + xmlStr.substr(xmlUserCharPos + u.length + 17);
+  }
+  else
+  {
+    retStr = "global name";
+  }
+}
+retStr;
