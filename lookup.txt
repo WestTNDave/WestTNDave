@@ -1,5 +1,9 @@
 var retStr = "";
 var xmlStrLC = xmlStr.toLowerCase();
+if (q.length > 0)
+{
+  u += " " + q;
+}
 var uLC = u.toLowerCase();
 var xmlUserCharPos = xmlStrLC.indexOf(uLC);
 if(-1 == xmlUserCharPos)
