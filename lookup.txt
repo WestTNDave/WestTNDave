@@ -1,3 +1,4 @@
+/*
 var retStr = "";
 var xhttp = new XMLHttpRequest();
 xhttp.open("GET", "https://raw.githubusercontent.com/WestTNDave/WestTNDave/main/user_lookup.xml");
@@ -19,3 +20,4 @@ function lookup(xml) {
     "\n";
   }
 }
+*/
