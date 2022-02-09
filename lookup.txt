@@ -1,4 +1,3 @@
-//var xmlStr=$(urlfetch json 'https://raw.githubusercontent.com/WestTNDave/WestTNDave/main/user_lookup.xml'); 
 var retStr = "";
 var xmlStrLC = xmlStr.toLowerCase();
 var uLC = u.toLowerCase();
