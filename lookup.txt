@@ -1,2 +1,3 @@
-var retStr = "Dave success";
-retStr;
+var retStr = "";
+var xmlUsers = $(xmlStr).find("users").text();
+retStr = xmlUsers;
