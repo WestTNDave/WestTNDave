@@ -1,5 +1,5 @@
-var xml = "
-<users>
+var xml = "";
+xml += "<users>
   <user>
     <twitch>WestTNDave</twitch>
     <global>WestTNCowboy</global>
@@ -23,4 +23,4 @@ var xml = "
   </user>
 </users>
 ";
-xml
+xml;
