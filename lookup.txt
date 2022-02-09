@@ -9,11 +9,19 @@ else
   if("<twitch>" == xmlStr.substr(xmlUserCharPos-8, 8))
   {
     retStr = "Twitch User: " + xmlStr.substr(xmlUserCharPos, u.length);
-    retStr += " is " + xmlStr.substr(xmlUserCharPos + u.length + 17);
+    var xmlOpenGlobalCharPos = xmlStr.indexOf("<global>", xmlUserCharPos);
+    var xmlCloseGlobalCharPos = xmlStr.indexOf("</global>", xmlUserCharPos);
+    retStr += " is " + xmlStr.substr(xmlOpenGlobalCharPos + 8, xmlCloseGlobalCharPos - xmlOpenGlobalCharPos - 8);
+    var xmlOpenGlobalCharPos = xmlStr.indexOf("<global>", xmlUserCharPos);
+    var xmlCloseGlobalCharPos = xmlStr.indexOf("</global>", xmlUserCharPos);
+    retStr += " is " + xmlStr.substr(xmlOpenGlobalCharPos + 8, xmlCloseGlobalCharPos - xmlOpenGlobalCharPos - 8);
   }
   else
   {
     retStr = "global name";
   }
+  var xmlOpenNoteCharPos = xmlStr.indexOf("<note>", xmlUserCharPos);
+  var xmlCloseNoteCharPos = xmlStr.indexOf("</note>", xmlUserCharPos);
+  retStr += ". " + xmlStr.substr(xmlOpenNoteCharPos + 6, xmlCloseNoteCharPos - xmlOpenNoteCharPos - 6);
 }
 retStr;
