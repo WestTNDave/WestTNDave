@@ -8,7 +8,7 @@ var uLC = u.toLowerCase();
 var xmlUserCharPos = xmlStrLC.indexOf(uLC);
 if(-1 == xmlUserCharPos)
 {
-  retStr = "No information on user: " + u + " was not found.";
+  retStr = "No information on user: " + u + " was found.";
 }
 else
 {
@@ -33,7 +33,7 @@ else
   }
   else
   {
-    retStr = "No information on user: " + u + " was not found.";
+    retStr = "No information on user: " + u + " was found.";
   }
   if(-1 == retStr.indexOf("No information on user: "))
   {
