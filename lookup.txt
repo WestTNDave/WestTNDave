@@ -1,3 +1,3 @@
 var retStr = "";
 var xmlUserIndex = xmlStr.indexOf(u);
-retStr = xmlUsers;
+retStr = xmlUserIndex;
