@@ -1,6 +1,6 @@
 var retStr = "";
 var xmlStrLC = xmlStr.toLowerCase();
-if (q.length > 0)
+if (u != q && q.length > 0)
 {
   u += " " + q;
 }
