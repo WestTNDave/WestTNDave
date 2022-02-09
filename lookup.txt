@@ -35,8 +35,11 @@ else
   {
     retStr = "No information on user: " + u + " was not found.";
   }
-  var xmlOpenNoteCharPos = xmlStr.indexOf("<note>", xmlUserCharPos);
-  var xmlCloseNoteCharPos = xmlStr.indexOf("</note>", xmlUserCharPos);
-  retStr += xmlStr.substr(xmlOpenNoteCharPos + 6, xmlCloseNoteCharPos - xmlOpenNoteCharPos - 6);
+  if("-1 == retStr.indexOf("No information on user: "))
+  {
+    var xmlOpenNoteCharPos = xmlStr.indexOf("<note>", xmlUserCharPos);
+    var xmlCloseNoteCharPos = xmlStr.indexOf("</note>", xmlUserCharPos);
+    retStr += xmlStr.substr(xmlOpenNoteCharPos + 6, xmlCloseNoteCharPos - xmlOpenNoteCharPos - 6);
+  }
 }
 retStr;
