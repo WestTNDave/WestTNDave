@@ -11,7 +11,7 @@ else
     retStr = "Twitch User: " + xmlStr.substr(xmlUserCharPos, u.length);
     var xmlOpenGlobalCharPos = xmlStr.indexOf("<global>", xmlUserCharPos);
     var xmlCloseGlobalCharPos = xmlStr.indexOf("</global>", xmlUserCharPos);
-    retStr += " is " + xmlStr.substr(xmlOpenGlobalCharPos + 8, xmlCloseGlobalCharPos - xmlOpenGlobalCharPos - 8);
+    retStr += " is " + xmlStr.substr(xmlOpenGlobalCharPos + 8, xmlCloseGlobalCharPos - xmlOpenGlobalCharPos - 8) + " on Global Poker. ";
   }
   else
   {
@@ -19,6 +19,6 @@ else
   }
   var xmlOpenNoteCharPos = xmlStr.indexOf("<note>", xmlUserCharPos);
   var xmlCloseNoteCharPos = xmlStr.indexOf("</note>", xmlUserCharPos);
-  retStr += ". " + xmlStr.substr(xmlOpenNoteCharPos + 6, xmlCloseNoteCharPos - xmlOpenNoteCharPos - 6);
+  retStr += xmlStr.substr(xmlOpenNoteCharPos + 6, xmlCloseNoteCharPos - xmlOpenNoteCharPos - 6);
 }
 retStr;
