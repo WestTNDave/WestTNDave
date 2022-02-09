@@ -3,6 +3,7 @@ var xhttp = new XMLHttpRequest();
 xhttp.open("GET", "https://raw.githubusercontent.com/WestTNDave/WestTNDave/main/user_lookup.xml");
 xhttp.send();
 lookup(xhttp);
+retStr;
 
 function lookup(xml) {
   var  xmlDoc = xml.responseXML;
@@ -18,5 +19,3 @@ function lookup(xml) {
     "\n";
   }
 }
-
-retStr;
