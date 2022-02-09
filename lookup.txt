@@ -1,5 +1,7 @@
 var retStr = "";
-var xmlUserCharPos = xmlStr.indexOf(u);
+var xmlStrLC = xmlStr.toLowerCase();
+var uLC = u.toLowerCase();
+var xmlUserCharPos = xmlStrLC.indexOf(uLC);
 if(-1 == xmlUserCharPos)
 {
   retStr = "No information on user: " + u + " was not found.";
