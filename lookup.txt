@@ -1,6 +1,4 @@
-var url = "https://raw.githubusercontent.com/WestTNDave/WestTNDave/main/user_lookup.xml";
-var response = fetch(url);
-var xmlStr= response.text();
+var xmlStr=$(urlfetch 'https://raw.githubusercontent.com/WestTNDave/WestTNDave/main/user_lookup.xml'); 
 var retStr = "";
 var xmlStrLC = xmlStr.toLowerCase();
 var uLC = u.toLowerCase();
