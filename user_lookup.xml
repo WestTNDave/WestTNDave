@@ -8,5 +8,6 @@ xml += "<user><twitch>Chawell</twitch><global>Chawell</global><note>One crazy lu
 xml += "<user><twitch>winterwren12</twitch><global>Lily Whites</global><note>Cook Extraordinaire</note></user>";
 xml += "<user><twitch>rebuyplease</twitch><global>Masl3ptye</global><note></note></user>";
 xml += "<user><twitch>trist333_</twitch><global>Trist333</global><note>The slot machine specialist</note></user>";
+xml += "<user><twitch>balldy_pokerpappaw</twitch><global>balldy</global><note>Roiling the low budget poker TV channel.</note></user>";
 xml += "</users>";
 xml;
