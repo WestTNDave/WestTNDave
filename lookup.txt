@@ -12,16 +12,16 @@ if(-1 == xmlUserCharPos)
 }
 else
 {
-  if("<twitch>" == xmlStr.substr(xmlUserCharPos-8, 8))
+  if("<twitch>" == xmlStr.substr(xmlUserCharPos-8, 8) && "</twitch>" == xmlStr.substr(xmlUserCharPos+u.length, 9))
   {
     retStr = "Twitch User: " + xmlStr.substr(xmlUserCharPos, u.length);
     var xmlOpenGlobalCharPos = xmlStr.indexOf("<global>", xmlUserCharPos);
     var xmlCloseGlobalCharPos = xmlStr.indexOf("</global>", xmlUserCharPos);
     retStr += " is " + xmlStr.substr(xmlOpenGlobalCharPos + 8, xmlCloseGlobalCharPos - xmlOpenGlobalCharPos - 8) + " on Global Poker. ";
   }
-  else
+  else if("<global>" == xmlStr.substr(xmlUserCharPos-8, 8) && "</global>" == xmlStr.substr(xmlUserCharPos+u.length, 9))
   {
-    retStr = "Global Pooker User: " + xmlStr.substr(xmlUserCharPos, u.length);
+    retStr = "Global Poker User: " + xmlStr.substr(xmlUserCharPos, u.length);
     var startPosforTwitch = xmlUserCharPos-50;
     if (startPosforTwitch < 0)
     {
@@ -30,6 +30,10 @@ else
     var xmlOpenTwitchCharPos = xmlStr.indexOf("<twitch>", startPosforTwitch);
     var xmlCloseTwitchCharPos = xmlStr.indexOf("</twitch>", startPosforTwitch);
     retStr += " is " + xmlStr.substr(xmlOpenTwitchCharPos + 8, xmlCloseTwitchCharPos - xmlOpenTwitchCharPos - 8) + " on Twitch. ";
+  }
+  else
+  {
+    retStr = "No information on user: " + u + " was not found.";
   }
   var xmlOpenNoteCharPos = xmlStr.indexOf("<note>", xmlUserCharPos);
   var xmlCloseNoteCharPos = xmlStr.indexOf("</note>", xmlUserCharPos);
