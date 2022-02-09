@@ -9,6 +9,7 @@ if(-1 == xmlUserCharPos)
 {
   retStr = "No information on user: " + u + " was not found.";
 }
+/*
 else
 {
   if("<twitch>" == xmlStr.substr(xmlUserCharPos-8, 8))
@@ -34,4 +35,5 @@ else
   var xmlCloseNoteCharPos = xmlStr.indexOf("</note>", xmlUserCharPos);
   retStr += xmlStr.substr(xmlOpenNoteCharPos + 6, xmlCloseNoteCharPos - xmlOpenNoteCharPos - 6);
 }
+*/
 retStr;
