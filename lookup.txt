@@ -12,9 +12,6 @@ else
     var xmlOpenGlobalCharPos = xmlStr.indexOf("<global>", xmlUserCharPos);
     var xmlCloseGlobalCharPos = xmlStr.indexOf("</global>", xmlUserCharPos);
     retStr += " is " + xmlStr.substr(xmlOpenGlobalCharPos + 8, xmlCloseGlobalCharPos - xmlOpenGlobalCharPos - 8);
-    var xmlOpenGlobalCharPos = xmlStr.indexOf("<global>", xmlUserCharPos);
-    var xmlCloseGlobalCharPos = xmlStr.indexOf("</global>", xmlUserCharPos);
-    retStr += " is " + xmlStr.substr(xmlOpenGlobalCharPos + 8, xmlCloseGlobalCharPos - xmlOpenGlobalCharPos - 8);
   }
   else
   {
