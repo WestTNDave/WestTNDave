@@ -1,4 +1,4 @@
-"
+var xml = "
 <users>
   <user>
     <twitch>WestTNDave</twitch>
@@ -22,4 +22,5 @@
     <note></note>
   </user>
 </users>
-"
+";
+xml
