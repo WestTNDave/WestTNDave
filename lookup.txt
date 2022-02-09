@@ -1,8 +1,8 @@
 var retStr = "";
 var xmlStrLC = xmlStr.toLowerCase();
-if (u != q && q.length > 0)
+if (q.length > u.length+1)
 {
-  u += " " + q;
+  u = q;
 }
 var uLC = u.toLowerCase();
 var xmlUserCharPos = xmlStrLC.indexOf(uLC);
