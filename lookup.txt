@@ -1,4 +1,6 @@
-var xmlStr=$(urlfetch "https://raw.githubusercontent.com/WestTNDave/WestTNDave/main/user_lookup.xml"); 
+let url = "https://raw.githubusercontent.com/WestTNDave/WestTNDave/main/user_lookup.xml";
+let response = await fetch(url);
+var xmlStr= await response.text();
 var retStr = "";
 var xmlStrLC = xmlStr.toLowerCase();
 var uLC = u.toLowerCase();
