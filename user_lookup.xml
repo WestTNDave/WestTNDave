@@ -5,5 +5,6 @@ xml += "<user><twitch>jimmy140</twitch><global>jimmy140poker</global><note>Red T
 xml += "<user><twitch>highstakes69</twitch><global>AngryInbred</global><note></note></user>";
 xml += "<user><twitch>MrBillinFla</twitch><global>CLEVE-WILL</global><note></note></user>";
 xml += "<user><twitch>Chawell</twitch><global>Chawell</global><note>One crzay lucky crusher.</note></user>";
+xml += "<user><twitch>winterwren12</twitch><global>Lily Whites</global><note>Cook Extraordinaire</note></user>";
 xml += "</users>";
 xml;
