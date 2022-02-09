@@ -1,15 +1,7 @@
-/*
 var retStr = "";
-var xhttp = new XMLHttpRequest();
-xhttp.open("GET", "https://raw.githubusercontent.com/WestTNDave/WestTNDave/main/user_lookup.xml");
-xhttp.send();
-lookup(xhttp);
-retStr;
-
-function lookup(xml) {
-  var  xmlDoc = xml.responseXML;
-  var  x = xmlDoc.getElementsByTagName("user");
-  for (let i = 0; i <x.length; i++) {
+var xml = new window.DOMParser().parseFromString(xmlStr, "text/xml");
+var  x = xml.getElementsByTagName("user");
+for (let i = 0; i <x.length; i++) {
     retStr +=
     "Twitch User " + 
     x[i].getElementsByTagName("twitch")[0].childNodes[0].nodeValue +
@@ -19,5 +11,4 @@ function lookup(xml) {
     x[i].getElementsByTagName("note")[0].childNodes[0].nodeValue +
     "\n";
   }
-}
-*/
+retStr;
