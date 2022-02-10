@@ -24,7 +24,7 @@ else
   }
   else
   {
-    retStr = "Global Poker User: " + xmlStr.substr(xmlGlobalUserCharPos, u.length);
+    retStr = "Global Poker User: " + xmlStr.substr(xmlGlobalUserCharPos+8, u.length);
     var startPosforTwitch = xmlGlobalUserCharPos-50;
     if (startPosforTwitch < 0)
     {
