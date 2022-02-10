@@ -16,5 +16,6 @@ xml += "<user><twitch>cwk1</twitch><global>cwk1</global><note>Screen name is jus
 xml += "<user><twitch>Leege420</twitch><global>Leege</global><note>Never misses a chance to stack those chips High</note></user>";
 xml += "<user><twitch>rob14612</twitch><global>Rude Robbie</global><note>In anger management because of his alter ego screen name.</note></user>";
 xml += "<user><twitch>chill_winston</twitch><global>Nat Bridge</global><note>You will feel the chill as your chips head his way.</note></user>";
+xml += "<user><twitch>solodriver1</twitch><global>Whiskey Jar</global><note>Despite the differnces in names, they don't promote drinking and driving.</note></user>";
 xml += "</users>";
 xml;
