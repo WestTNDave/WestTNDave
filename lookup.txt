@@ -5,24 +5,27 @@ if (q.length > u.length+1)
   u = q;
 }
 var uLC = u.toLowerCase();
-var xmlUserCharPos = xmlStrLC.indexOf(uLC);
-if(-1 == xmlUserCharPos)
+var xmlTwitchUserCharPos = xmlStrLC.indexOf("<twitch>" + uLC + "</twitch>");
+var xmlGlobalUserCharPos = xmlStrLC.indexOf("<global>" + uLC + "</global>");
+if(-1 == xmlTwitchUserCharPos && -1 == xmlGlobalUserCharPos)
 {
   retStr = "No information on user: " + u + " was found.";
 }
 else
 {
-  if("<twitch>" == xmlStr.substr(xmlUserCharPos-8, 8) && "</twitch>" == xmlStr.substr(xmlUserCharPos+u.length, 9))
+  var xmlUserCharPos = 0;
+  if(xmlTwitchUserCharPos > 0)
   {
-    retStr = "Twitch User: " + xmlStr.substr(xmlUserCharPos, u.length);
+    retStr = "Twitch User: " + xmlStr.substr(xmlTwitchUserCharPos+8, u.length);
     var xmlOpenGlobalCharPos = xmlStr.indexOf("<global>", xmlUserCharPos);
     var xmlCloseGlobalCharPos = xmlStr.indexOf("</global>", xmlUserCharPos);
     retStr += " is " + xmlStr.substr(xmlOpenGlobalCharPos + 8, xmlCloseGlobalCharPos - xmlOpenGlobalCharPos - 8) + " on Global Poker. ";
+    xmlUserCharPos = xmlTwitchUserCharPos;
   }
-  else if("<global>" == xmlStr.substr(xmlUserCharPos-8, 8) && "</global>" == xmlStr.substr(xmlUserCharPos+u.length, 9))
+  else
   {
-    retStr = "Global Poker User: " + xmlStr.substr(xmlUserCharPos, u.length);
-    var startPosforTwitch = xmlUserCharPos-50;
+    retStr = "Global Poker User: " + xmlStr.substr(xmlGlobalUserCharPos, u.length);
+    var startPosforTwitch = xmlGlobalUserCharPos-50;
     if (startPosforTwitch < 0)
     {
       startPosforTwitch = 0;
@@ -30,16 +33,10 @@ else
     var xmlOpenTwitchCharPos = xmlStr.indexOf("<twitch>", startPosforTwitch);
     var xmlCloseTwitchCharPos = xmlStr.indexOf("</twitch>", startPosforTwitch);
     retStr += " is " + xmlStr.substr(xmlOpenTwitchCharPos + 8, xmlCloseTwitchCharPos - xmlOpenTwitchCharPos - 8) + " on Twitch. ";
+    xmlUserCharPos = xmlCloseGlobalCharPos;
   }
-  else
-  {
-    retStr = "No information on user: " + u + " was found.";
-  }
-  if(-1 == retStr.indexOf("No information on user: "))
-  {
-    var xmlOpenNoteCharPos = xmlStr.indexOf("<note>", xmlUserCharPos);
-    var xmlCloseNoteCharPos = xmlStr.indexOf("</note>", xmlUserCharPos);
-    retStr += xmlStr.substr(xmlOpenNoteCharPos + 6, xmlCloseNoteCharPos - xmlOpenNoteCharPos - 6);
-  }
+  var xmlOpenNoteCharPos = xmlStr.indexOf("<note>", xmlUserCharPos);
+  var xmlCloseNoteCharPos = xmlStr.indexOf("</note>", xmlUserCharPos);
+  retStr += xmlStr.substr(xmlOpenNoteCharPos + 6, xmlCloseNoteCharPos - xmlOpenNoteCharPos - 6);
 }
 retStr;
