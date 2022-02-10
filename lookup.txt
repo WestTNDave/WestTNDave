@@ -1,3 +1,26 @@
+
+var xml = "";
+xml += "<users>";
+xml += "<user><twitch>WestTNDave</twitch><global>WestTNCowboy</global><note>The geek squad to all streamers</note></user>";
+xml += "<user><twitch>jimmy140poker</twitch><global>jimmy140</global><note>Red Tag players tilt this dude</note></user>";
+xml += "<user><twitch>highsteaks69</twitch><global>AngryInbred</global><note></note></user>";
+xml += "<user><twitch>MrBillinFla</twitch><global>CLEVE-WILL</global><note>el-cheapo champion</note></user>";
+xml += "<user><twitch>Chawell</twitch><global>Chawell</global><note>One crazy lucky crusher.</note></user>";
+xml += "<user><twitch>winterwren12</twitch><global>Lily Whites</global><note>Cook Extraordinaire</note></user>";
+xml += "<user><twitch>rebuyplease</twitch><global>Masl3ptye</global><note></note></user>";
+xml += "<user><twitch>trist333_</twitch><global>Trist333</global><note>The slot machine specialist</note></user>";
+xml += "<user><twitch>balldy_pokerpappaw</twitch><global>balldy</global><note>Roiling the low budget poker TV channel.</note></user>";
+xml += "<user><twitch>nystallion</twitch><global>PJPain</global><note>The undisputed Home Game 2 crusher.</note></user>";
+xml += "<user><twitch>crookruss</twitch><global>crookruss</global><note>The trophy winning champion.</note></user>";
+xml += "<user><twitch>trollmahgullicutti</twitch><global>cashinout81</global><note>Hoping he could sing as good as Justin Timberlake.</note></user>";
+xml += "<user><twitch>cwk1</twitch><global>cwk1</global><note>Screen name is just like his poker playing simple and to the point.</note></user>";
+xml += "<user><twitch>Leege420</twitch><global>Leege</global><note>Never misses a chance to stack those chips High</note></user>";
+xml += "<user><twitch>rob14612</twitch><global>Rude Robbie</global><note>In anger management because of his alter ego screen name.</note></user>";
+xml += "<user><twitch>chill_winston</twitch><global>Nat Bridge</global><note>You will feel the chill as your chips head his way.</note></user>";
+xml += "</users>";
+
+var xmlStr=xml;
+
 var retStr = "";
 var xmlStrLC = xmlStr.toLowerCase();
 if (q.length > u.length+1)
