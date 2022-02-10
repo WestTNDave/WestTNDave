@@ -14,5 +14,6 @@ xml += "<user><twitch>crookruss</twitch><global>crookruss</global><note>The trop
 xml += "<user><twitch>trollmahgullicutti</twitch><global>cashinout81</global><note>Hoping he could sing as good as Justin Timberlake.</note></user>";
 xml += "<user><twitch>cwk1</twitch><global>cwk1</global><note>Screen name is just like his poker playing simple and to the point.</note></user>";
 xml += "<user><twitch>Leege420</twitch><global>Leege</global><note>Never misses a chance to stack those chips High</note></user>";
+xml += "<user><twitch>rob14612</twitch><global>Rude Robbie</global><note>In anger management because of his alter ego screen name.</note></user>";
 xml += "</users>";
 xml;
