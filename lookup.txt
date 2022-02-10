@@ -34,7 +34,7 @@ var xmlTwitchUserCharPos = xmlStrLC.indexOf("<twitch>" + uLC + "</twitch>");
 var xmlGlobalUserCharPos = xmlStrLC.indexOf("<global>" + uLC + "</global>");
 if(-1 == xmlTwitchUserCharPos && -1 == xmlGlobalUserCharPos)
 {
-  retStr = "No information on user: " + u + " was found.  If you would like your information added please whisper your Globla Poker screen name to WestTNDave";
+  retStr = "No information on user: " + u + " was found.  If you would like your information added please whisper your Global Poker screen name to WestTNDave";
 }
 else
 {
