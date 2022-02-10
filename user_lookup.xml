@@ -11,5 +11,6 @@ xml += "<user><twitch>trist333_</twitch><global>Trist333</global><note>The slot 
 xml += "<user><twitch>balldy_pokerpappaw</twitch><global>balldy</global><note>Roiling the low budget poker TV channel.</note></user>";
 xml += "<user><twitch>nystallion</twitch><global>PJPain</global><note>The undisputed Home Game 2 crusher.</note></user>";
 xml += "<user><twitch>crookruss</twitch><global>crookruss</global><note>The trophy winning champion.</note></user>";
+xml += "<user><twitch>trollmahgullicutti</twitch><global>cashinout81</global><note>Hoping he could sing as good as Justin Timberlake.</note></user>";
 xml += "</users>";
 xml;
