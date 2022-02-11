@@ -20,7 +20,7 @@ xml += "<user><twitch>chill_winston</twitch><global>Nat Bridge</global><note>You
 xml += "<user><twitch>solodriver1</twitch><global>Whiskey Jar</global><note>Despite bipolar screen names, they do not promote drinking and driving.</note></user>";
 xml += "<user><twitch>Nodoogz</twitch><global>Nodoogz</global><note>Western Canadian crusher</note></user>";
 xml += "<user><twitch>nflabk</twitch><global>nflabk</global><note>Kyle. The Man. The Myth. The Legend.</note></user>";
-xml += "<user><twitch>treyzilla7464</twitch><global>treyzilla</global><note>AKA: The Pit Boss</note></user>";
+xml += "<user><twitch>treyzilla7464</twitch><global>Treyzilla</global><note>AKA: The Pit Boss</note></user>";
 xml += "</users>";
 
 var xmlStr=xml;
