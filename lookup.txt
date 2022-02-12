@@ -23,7 +23,7 @@ xml += "<user><twitch>nflabk</twitch><global>nflabk</global><note>Kyle. The Man.
 xml += "<user><twitch>treyzilla7464</twitch><global>Treyzilla</global><note>AKA: The Pit Boss</note></user>";
 xml += "<user><twitch>polishpeter88</twitch><global>Polishpeter88</global><note>Polish Peter piper picked a peck of pickled polish peppers</note></user>";
 xml += "<user><twitch>sergeysflannel</twitch><global>slumpy</global><note>Lazily hanging around in his flannel pajamas.</note></user>";
-xml += "<user><twitch>Agonz1210</twitch><global>gonz1210</global><note>You chips are gonna be gonz if you don't pay attention to him</note></user>";
+xml += "<user><twitch>Agonz1210</twitch><global>gonz1210</global><note>Your chips are gonna be gonz if you don't pay attention to him</note></user>";
 xml += "</users>";
 
 var xmlStr=xml;
