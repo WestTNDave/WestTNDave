@@ -31,6 +31,7 @@ xml += "<user><twitch>pok3rshark17</twitch><global>Pok3rshark17</global><note>Sw
 xml += "<user><twitch>ThaBee</twitch><global>QBee2</global><note>Watch out for her stinger.  She hits you out of nowhere.</note></user>";
 xml += "<user><twitch>xxx3m3r4ldxxx</twitch><global>xxx3m3r4ldxxx</global><note>Emerald, better than diamonds on the felt.</note></user>"; 
 xml += "<user><twitch>thefolder21</twitch><global>thefolder</global><note>The name is misleading because he never folds.</note></user>"; 
+xml += "<user><twitch>glenzim</twitch><global>zman77</global><note>He is a real sleeper</note></user>"; 
 xml += "</users>";
 
 var xmlStr=xml;
