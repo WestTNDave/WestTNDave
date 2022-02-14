@@ -4,14 +4,14 @@ eightballanswers.push("As I see it, yes.", "Most likely", "Outlook good", "Yes",
 eightballanswers.push("Reply hazy, try again", "Ask again later", "Better not tell you now", "Cannot predict now", "Concentrate and ask again");
 eightballanswers.push("Don't count on it", "My reply is no", "My sources say no", "Outlook not so good", "Very doubtful");
 
-if(q.length > 0 && 0 == u.length)
+if(q.length == u.length)
 {
   answer += q + " ";
 }
 
 answer += eightballanswers[Math.floor(Math.random()*eightballanswers.length)];
 
-if(q.length > 0 && u.length > 0)
+if(q.length > u.length && u.length > 0)
 {
   var scrubQ = q.replaceAll(u,"");
   scrubQ = scrubQ.replaceAll("?","");
