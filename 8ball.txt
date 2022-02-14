@@ -7,7 +7,7 @@ eightballanswers.push("Don't count on it", "My reply is no", "My sources say no"
 var iAtSign = q.indexOf("@");
 if(-1 == iAtSign)
 {
-  answer += q + " ";
+  answer += q + ": ";
 }
 answer += eightballanswers[Math.floor(Math.random()*eightballanswers.length)];
 
