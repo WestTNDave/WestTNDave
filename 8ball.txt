@@ -28,7 +28,7 @@ if(iAtSign > -1)
     scrubQ = scrubQ.replaceAll("?","");
     scrubQ = scrubQ.toLowerCase();
   }
-  answer += ", " + strUser + " ^^^ " + scrubQ;
+  answer += ", " + strUser + " " + scrubQ;
 }
 
 answer;
