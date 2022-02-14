@@ -33,6 +33,7 @@ xml += "<user><twitch>xxx3m3r4ldxxx</twitch><global>xxx3m3r4ldxxx</global><note>
 xml += "<user><twitch>thefolder21</twitch><global>thefolder</global><note>The name is misleading because he never folds.</note></user>"; 
 xml += "<user><twitch>glenzim</twitch><global>zman77</global><note>He is a real sleeper</note></user>"; 
 xml += "<user><twitch>TheBestLoserMVP</twitch><global>rebelpoker</global><note></note></user>"; 
+xml += "<user><twitch>stc1781</twitch><global>Cheezmo1781</global><note>As cheezy as a Cheez-It</note></user>"; 
 xml += "</users>";
 
 var xmlStr=xml;
