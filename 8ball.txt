@@ -18,16 +18,17 @@ if(iAtSign > -1)
   var iNextSpace = q.indexOf(" ", iAtSign);
   if(-1 == iNextSpace)
   {
-    iNextSpace = q.length-1;
+    iNextSpace = q.length;
   }
   if(iNextSpace > iAtSign)
   {
     strUser += q.substring(iAtSign+1, iNextSpace);
     scrubQ = q.replaceAll("@" + strUser + " " ,"");
+    scrubQ = q.replaceAll("@" + strUser ,"");
     scrubQ = scrubQ.replaceAll("?","");
     scrubQ = scrubQ.toLowerCase();
   }
-  answer += ". " + strUser + " %%% " + scrubQ;
+  answer += ". " + strUser + " ^^^ " + scrubQ;
 }
 
 answer;
