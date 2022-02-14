@@ -10,3 +10,4 @@ if(q.length > 0)
 }
 
 answer += eightballanswers[Math.floor(Math.random()*eightballanswers.length)];
+answer;
