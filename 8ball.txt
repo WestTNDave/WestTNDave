@@ -24,7 +24,7 @@ if(iAtSign > -1)
   {
     strUser += q.substring(iAtSign+1, iNextSpace);
     scrubQ = q.replaceAll("@" + strUser + " " ,"");
-    scrubQ = q.replaceAll("@" + strUser ,"");
+    scrubQ = scrubQ .replaceAll("@" + strUser ,"");
     scrubQ = scrubQ.replaceAll("?","");
     scrubQ = scrubQ.toLowerCase();
     scrubQ = scrubQ.replaceAll("any " ,"");
