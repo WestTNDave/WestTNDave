@@ -1,6 +1,12 @@
+var answer = "";
 var eightballanswers = ["It is certain", "It is decidedly so", "Without a doubt", "Yes definitely", "You may rely on it"];
 eightballanswers.push("As I see it, yes.", "Most likely", "Outlook good", "Yes", "Signs point to yes");
 eightballanswers.push("Reply hazy, try again", "Ask again later", "Better not tell you now", "Cannot predict now", "Concentrate and ask again");
 eightballanswers.push("Don't count on it", "My reply is no", "My sources say no", "Outlook not so good", "Very doubtful");
 
-eightballanswers[Math.floor(Math.random()*eightballanswers.length)];
+if(q.length > 0)
+{
+  answer += q + " ";
+}
+
+answer += eightballanswers[Math.floor(Math.random()*eightballanswers.length)];
