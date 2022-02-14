@@ -4,18 +4,26 @@ eightballanswers.push("As I see it, yes.", "Most likely", "Outlook good", "Yes",
 eightballanswers.push("Reply hazy, try again", "Ask again later", "Better not tell you now", "Cannot predict now", "Concentrate and ask again");
 eightballanswers.push("Don't count on it", "My reply is no", "My sources say no", "Outlook not so good", "Very doubtful");
 
-if(q.length == u.length)
+var iAtSign = q.indexOf("@");
+if(-1 == iAtSign)
 {
   answer += q + " ";
 }
-
 answer += eightballanswers[Math.floor(Math.random()*eightballanswers.length)];
 
-if(q.length > u.length && u.length > 0)
+if(iAtSign > -1)
 {
-  var scrubQ = q.replaceAll(u,"");
-  scrubQ = scrubQ.replaceAll("?","");
-  answer += ". " + u;
+  var scrubQ = "";
+  var strUser = "";
+  var iNextSpace = q.indexOf(" ", iAtSign);
+  if(iNextSpace > iAtSign)
+  {
+    strUser += q.substring(iAtSign+1, iNextSpace-iAtSign) + " ";
+    scrubQ = q.replaceAll("@" + strUser ,"");
+    scrubQ = scrubQ.replaceAll("?","");
+    scrubQ = scrubQ.toLowerCase();
+  }
+  answer += ". " + strUser + " " + scrubQ;
 }
 
 answer;
