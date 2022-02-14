@@ -16,6 +16,10 @@ if(iAtSign > -1)
   var scrubQ = "";
   var strUser = "";
   var iNextSpace = q.indexOf(" ", iAtSign);
+  if(-1 == iNextSpace)
+  {
+    iNextSpace = q.length-1;
+  }
   if(iNextSpace > iAtSign)
   {
     strUser += q.substring(iAtSign+1, iNextSpace);
