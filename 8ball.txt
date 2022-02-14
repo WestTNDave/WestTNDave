@@ -27,6 +27,8 @@ if(iAtSign > -1)
     scrubQ = q.replaceAll("@" + strUser ,"");
     scrubQ = scrubQ.replaceAll("?","");
     scrubQ = scrubQ.toLowerCase();
+    scrubQ = q.replaceAll("any " ,"");
+    scrubQ = q.replaceAll("all " ,"");
   }
   answer += ", " + strUser + " " + scrubQ;
 }
