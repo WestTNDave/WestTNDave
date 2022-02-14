@@ -15,7 +15,7 @@ if(q.length > u.length && u.length > 0)
 {
   var scrubQ = q.replaceAll(u,"");
   scrubQ = scrubQ.replaceAll("?","");
-  answer += ". " + u + " " + scrubQ;
+  answer += ". " + u;
 }
 
 answer;
