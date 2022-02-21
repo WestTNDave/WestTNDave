@@ -34,6 +34,10 @@ xml += "<user><twitch>thefolder21</twitch><global>thefolder</global><note>The na
 xml += "<user><twitch>glenzim</twitch><global>zman77</global><note>He is a real sleeper</note></user>"; 
 xml += "<user><twitch>TheBestLoserMVP</twitch><global>rebelpoker</global><note></note></user>"; 
 xml += "<user><twitch>stc1781</twitch><global>Cheezmo1781</global><note>As cheezy as a Cheez-It</note></user>"; 
+xml += "<user><twitch>matpipes</twitch><global>Matpipes114</global><note>Ready to beat you over the head with the pipe wrench</note></user>"; 
+xml += "<user><twitch>BaKeRs_World</twitch><global>BakersWorld</global><note>Slow rolling you like only a baker can</note></user>"; 
+xml += "<user><twitch>charlie_the_charlie</twitch><global>CHARLIE_______________</global><note>Whehter it's chocolate or poker, he's making good stuff</note></user>"; 
+xml += "<user><twitch>TripHop</twitch><global>Juke</global><note>Rapping the music choices on the JukeBox</note></user>"; 
 xml += "</users>";
 
 var xmlStr=xml;
