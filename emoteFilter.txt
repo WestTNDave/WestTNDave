@@ -1,1 +1,1 @@
-"WestTnDave - touser:" + u + " - query:" + q;
+"test";
