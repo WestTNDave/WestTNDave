@@ -38,6 +38,8 @@ xml += "<user><twitch>matpipes</twitch><global>Matpipes114</global><note>Ready t
 xml += "<user><twitch>BaKeRs_World</twitch><global>BakersWorlds</global><note>Slow rolling you like only a baker can</note></user>"; 
 xml += "<user><twitch>charlie_the_charlie</twitch><global>CHARLIE_______________</global><note>Whehter it's chocolate or poker, he's making good stuff</note></user>"; 
 xml += "<user><twitch>TripHop</twitch><global>Juke</global><note>Rapping the music choices on the JukeBox</note></user>"; 
+xml += "<user><twitch>sam1chips</twitch><global>sam1chips</global><note>Just like a shark, he is always eating away at your chip stack</note></user>"; 
+xml += "<user><twitch>lemirechris</twitch><global>Chris Lemire</global><note>Figuring out how to drag those pots</note></user>"; 
 xml += "</users>";
 
 var xmlStr=xml;
