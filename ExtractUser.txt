@@ -1,17 +1,17 @@
 var strUser = "";
-if("" != q && q.length > 0)
+if(u != tu)
 {
-  var iAtSign = q.indexOf("@");
+  var iAtSign = tu.indexOf("@");
   if(iAtSign > -1)
   {
-    var iNextSpace = q.indexOf(" ", iAtSign);
+    var iNextSpace = tu.indexOf(" ", iAtSign);
     if(-1 == iNextSpace)
     {
       iNextSpace = q.length;
     }
     if(iNextSpace > iAtSign)
     {
-      strUser += q.substring(iAtSign+1, iNextSpace);
+      strUser += tu.substring(iAtSign+1, iNextSpace);
     }
   }
 }
