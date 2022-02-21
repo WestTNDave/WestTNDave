@@ -1,4 +1,4 @@
-var strUser = "Iteration 1: ";
+var strUser = "";
 if("" != q || q.length > 0)
 {
   var iAtSign = q.indexOf("@");
