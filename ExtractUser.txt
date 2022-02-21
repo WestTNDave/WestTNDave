@@ -1,15 +1,18 @@
 var strUser = "";
-var iAtSign = q.indexOf("@");
-if(iAtSign > -1)
+if(q.length > 0)
 {
-  var iNextSpace = q.indexOf(" ", iAtSign);
-  if(-1 == iNextSpace)
+  var iAtSign = q.indexOf("@");
+  if(iAtSign > -1)
   {
-    iNextSpace = q.length;
-  }
-  if(iNextSpace > iAtSign)
-  {
-    strUser += q.substring(iAtSign+1, iNextSpace);
+    var iNextSpace = q.indexOf(" ", iAtSign);
+    if(-1 == iNextSpace)
+    {
+      iNextSpace = q.length;
+    }
+    if(iNextSpace > iAtSign)
+    {
+      strUser += q.substring(iAtSign+1, iNextSpace);
+    }
   }
 }
 strUser;
