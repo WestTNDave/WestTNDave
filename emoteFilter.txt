@@ -4,11 +4,14 @@ if(strQScrub.indexOf("westtndave") >= 0 && tu!=u)
 {
   "WestTnDave - user:" + u + " - touser:" + tu;
 }
-else if(tu.indexOf("westtn") >= 0 || tu==u ) 
-{
-  "";
-}
 else 
 {
-  tu;
+  if(tu.indexOf("westtn") >= 0 || tu==u ) 
+  {
+    "";
+  }
+  else 
+  {
+    tu;
+  }
 }
