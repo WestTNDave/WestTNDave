@@ -1,3 +1,20 @@
 var strUser = "";
-strUser += "User:" + u + " ToUser:" + tu;
+if(u == tu)
+{
+  strUser = "";
+}
+else
+{
+  if(tu.indexOf("WestTNDave"))
+  {
+    strUser = "WestTNDave";
+  }
+  else
+  {
+    if(-1 == tu.indexOf("westtn"))
+    {
+	strUser = tu;
+    }
+  }
+}
 strUser;
