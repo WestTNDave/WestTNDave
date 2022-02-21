@@ -5,9 +5,9 @@ if(u == tu)
 }
 else
 {
-  if(tu.indexOf("WestTNDave"))
+  if("WestTNDave" == tu)
   {
-    strUser = "WestTNDave";
+    strUser = tu;
   }
   else
   {
