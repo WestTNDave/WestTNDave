@@ -1,19 +1,21 @@
 var strUser = "";
-if(u == tu)
+var strU = u.toString();
+var strTU = tu.toString();
+if(strU == strTU)
 {
   strUser = "";
 }
 else
 {
-  if("WestTNDave" == tu)
+  if("WestTNDave" == strTU)
   {
-    strUser = tu;
+    strUser = strTU;
   }
   else
   {
-    if(-1 == tu.indexOf("westtn"))
+    if(-1 == strTU.indexOf("westtn"))
     {
-	strUser = tu;
+	strUser = strTU;
     }
   }
 }
