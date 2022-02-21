@@ -1,18 +1,3 @@
 var strUser = "";
-if(u != tu)
-{
-  var iAtSign = tu.indexOf("@");
-  if(iAtSign > -1)
-  {
-    var iNextSpace = tu.indexOf(" ", iAtSign);
-    if(-1 == iNextSpace)
-    {
-      iNextSpace = q.length;
-    }
-    if(iNextSpace > iAtSign)
-    {
-      strUser += tu.substring(iAtSign+1, iNextSpace);
-    }
-  }
-}
+str += "User:" + u + " ToUser:" + tu;
 strUser;
