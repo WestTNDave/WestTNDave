@@ -2,7 +2,7 @@ var strQScrub = tu;
 strQScrub = strQScrub.toLowerCase();
 if(strQScrub.indexOf("westtndave") >= 0 && tu!=u)
 {
-  "WestTnDave - user:" + u + " touser:" + tu;
+  "WestTnDave - user:" + u + " - touser:" + tu;
 }
 else if(tu.indexOf("westtn") >= 0 || tu==u ) 
 {
