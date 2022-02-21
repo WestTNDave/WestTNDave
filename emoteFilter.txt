@@ -1,17 +1,17 @@
-var strQScrub = tu;
+var strQScrub = q;
 strQScrub = strQScrub.toLowerCase();
-if(strQScrub.indexOf("westtndave") >= 0 && tu!=u)
+if(strQScrub.indexOf("westtndave") >= 0 && u!=q)
 {
-  "WestTnDave - user:" + u + " - touser:" + tu;
+  "WestTnDave - touser:" + u + " - query:" + q;
 }
 else 
 {
-  if(tu.indexOf("westtn") >= 0 || tu==u ) 
+  if(u.indexOf("westtn") >= 0 || u==q ) 
   {
     "";
   }
   else 
   {
-    tu;
+    u;
   }
 }
