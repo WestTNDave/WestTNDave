@@ -1,0 +1,14 @@
+var strQScrub = tu;
+strQScrub = strQScrub.toLowerCase();
+if(strQScrub.indexOf("westtndave") >= 0)
+{
+  "WestTnDave";
+}
+else if(tu.indexOf('westtn') >= 0|| tu==u ) 
+{
+  "";
+}
+else 
+{
+  tu;
+}
