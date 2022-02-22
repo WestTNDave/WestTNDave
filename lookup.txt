@@ -44,6 +44,7 @@ xml += "<user><twitch>texaslefty1</twitch><global>texaslefty1</global><note>All 
 xml += "<user><twitch>cloudgfg</twitch><global>cloudgfg</global><note>Developing a web of plays to ship your chips to his cloud accounts</note></user>"; 
 xml += "<user><twitch>steve_lav</twitch><global>UrNoBueno</global><note>You need a Spanglish dictionary to find out your going to lose to him</note></user>"; 
 xml += "<user><twitch>defnotdogmommy</twitch><global>DogMommy</global><note>The bite is worse than the bark</note></user>"; 
+xml += "<user><twitch>brothel_taco</twitch><global>BrothelTaco</global><note>Always doing you dirty in those multiway plays</note></user>"; 
 xml += "</users>";
 
 var xmlStr=xml;
