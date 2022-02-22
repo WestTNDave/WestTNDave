@@ -45,6 +45,7 @@ xml += "<user><twitch>cloudgfg</twitch><global>cloudgfg</global><note>Developing
 xml += "<user><twitch>steve_lav</twitch><global>UrNoBueno</global><note>You need a Spanglish dictionary to find out your going to lose to him</note></user>"; 
 xml += "<user><twitch>defnotdogmommy</twitch><global>DogMommy</global><note>The bite is worse than the bark</note></user>"; 
 xml += "<user><twitch>brothel_taco</twitch><global>BrothelTaco</global><note>Always doing you dirty in those multiway plays</note></user>"; 
+xml += "<user><twitch>ceezythe01</twitch><global>Seat1</global><note>Likes sitting in seat 1 because has paid off the dealer to flash the cards as they are dealt</note></user>"; 
 xml += "</users>";
 
 var xmlStr=xml;
