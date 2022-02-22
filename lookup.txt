@@ -40,6 +40,8 @@ xml += "<user><twitch>charlie_the_charlie</twitch><global>CHARLIE_______________
 xml += "<user><twitch>TripHop</twitch><global>Juke</global><note>Rapping the music choices on the JukeBox</note></user>"; 
 xml += "<user><twitch>sam1chips</twitch><global>sam1chips</global><note>Just like a shark, he is always eating away at your chip stack</note></user>"; 
 xml += "<user><twitch>lemirechris</twitch><global>Chris Lemire</global><note>Figuring out how to drag those pots</note></user>"; 
+xml += "<user><twitch>texaslefty1</twitch><global>texaslefty1</global><note>All things are bigger in texas, and this southpaw can blind side you like no other</note></user>"; 
+xml += "<user><twitch>cloudgfg</twitch><global>cloudgfg</global><note>Developing a web of plays to ship your chips to his cloud accounts</note></user>"; 
 xml += "</users>";
 
 var xmlStr=xml;
