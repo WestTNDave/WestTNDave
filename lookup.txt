@@ -50,7 +50,7 @@ xml += "<user><twitch>irishstud14</twitch><global>Irishstud14</global><note>At 1
 xml += "<user><twitch>Captain_Sandbeard</twitch><global>SIRRRRR</global><note>Just like Jack Sparrow, pillaging coins from all kinds of fishy places</note></user>"; 
 xml += "<user><twitch>TheLango</twitch><global>Unsub</global><note>He definitely doesn't want you to unsub his channel</note></user>"; 
 xml += "<user><twitch>JWK24</twitch><global>Hoss</global><note>The Hoss is the Boss</note></user>";  
-xml += "<user><twitch>ptr_tv</twitch><global>ptr_tv</global><note>Always Plays to the River to get all the screen time possible</note></user>"; 
+xml += "<user><twitch>ptr_tv</twitch><global>ptr_tv</global><note>Plays to the River to get all the screen time possible</note></user>"; 
 xml += "</users>";
 
 var xmlStr=xml;
