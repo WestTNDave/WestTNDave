@@ -47,6 +47,7 @@ xml += "<user><twitch>defnotdogmommy</twitch><global>DogMommy</global><note>The 
 xml += "<user><twitch>brothel_taco</twitch><global>BrothelTaco</global><note>Always doing you dirty in those multiway plays</note></user>"; 
 xml += "<user><twitch>ceezythe01</twitch><global>Seat1</global><note>Likes sitting in seat 1 because has paid off the dealer to flash the cards as they are dealt</note></user>"; 
 xml += "<user><twitch>irishstud14</twitch><global>Irishstud14</global><note>At 14 he was an Irish Stud.  Now he makes your bankroll red, because green comes his way with due to the luck of the Irish</note></user>"; 
+xml += "<user><twitch>Captain_Sandbeard</twitch><global>SIRRRRR</global><note>Just like Jack Sparrow, pillaging coins from all kinds of fishy places</note></user>"; 
 xml += "</users>";
 
 var xmlStr=xml;
