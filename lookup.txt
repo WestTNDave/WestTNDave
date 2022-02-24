@@ -77,10 +77,13 @@ else
   if(xmlTwitchUserCharPos > 0)
   {
     retStr = "Twitch User: " + xmlStr.substr(xmlTwitchUserCharPos+8, u.length);
-    var xmlOpenGlobalCharPos = xmlStr.indexOf("<global>", xmlTwitchUserCharPos);
-    var xmlCloseGlobalCharPos = xmlStr.indexOf("</global>", xmlTwitchUserCharPos);
-    retStr += " is " + xmlStr.substr(xmlOpenGlobalCharPos + 8, xmlCloseGlobalCharPos - xmlOpenGlobalCharPos - 8) + " on Global Poker. ";
-    xmlUserCharPos = xmlTwitchUserCharPos;
+    if(-1 == uLC.indexof("nightbot"))
+    {
+      var xmlOpenGlobalCharPos = xmlStr.indexOf("<global>", xmlTwitchUserCharPos);
+      var xmlCloseGlobalCharPos = xmlStr.indexOf("</global>", xmlTwitchUserCharPos);
+      retStr += " is " + xmlStr.substr(xmlOpenGlobalCharPos + 8, xmlCloseGlobalCharPos - xmlOpenGlobalCharPos - 8) + " on Global Poker. ";
+      xmlUserCharPos = xmlTwitchUserCharPos;
+    }
   }
   else
   {
