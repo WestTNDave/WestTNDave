@@ -51,6 +51,8 @@ xml += "<user><twitch>Captain_Sandbeard</twitch><global>SIRRRRR</global><note>Ju
 xml += "<user><twitch>TheLango</twitch><global>Unsub</global><note>He definitely doesn't want you to unsub his channel</note></user>"; 
 xml += "<user><twitch>JWK24</twitch><global>Hoss</global><note>The Hoss is the Boss</note></user>";  
 xml += "<user><twitch>ptr_tv</twitch><global>ptr_tv</global><note>Plays to the River to get all the screen time possible</note></user>"; 
+xml += "<user><twitch>johnbets</twitch><global>JohnBets</global><note>John bets and you fold, simple as that</note></user>"; 
+xml += "<user><twitch>radiodaze</twitch><global>RadioDaze</global><note>The daze you feel when the music is too loud in your car, is how you feel when he snarks your chips</note></user>"; 
 xml += "</users>";
 
 var xmlStr=xml;
