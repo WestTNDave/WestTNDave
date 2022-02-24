@@ -77,7 +77,7 @@ else
   if(xmlTwitchUserCharPos > 0)
   {
     retStr = "Twitch User: " + xmlStr.substr(xmlTwitchUserCharPos+8, u.length);
-    if(-1 == uLC.indexof("nightbot"))
+    if(-1 == uLC.indexOf("nightbot"))
     {
       var xmlOpenGlobalCharPos = xmlStr.indexOf("<global>", xmlTwitchUserCharPos);
       var xmlCloseGlobalCharPos = xmlStr.indexOf("</global>", xmlTwitchUserCharPos);
