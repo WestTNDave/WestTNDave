@@ -81,9 +81,10 @@ else
     {
       var xmlOpenGlobalCharPos = xmlStr.indexOf("<global>", xmlTwitchUserCharPos);
       var xmlCloseGlobalCharPos = xmlStr.indexOf("</global>", xmlTwitchUserCharPos);
-      retStr += " is " + xmlStr.substr(xmlOpenGlobalCharPos + 8, xmlCloseGlobalCharPos - xmlOpenGlobalCharPos - 8) + " on Global Poker. ";
-      xmlUserCharPos = xmlTwitchUserCharPos;
+      retStr += " is " + xmlStr.substr(xmlOpenGlobalCharPos + 8, xmlCloseGlobalCharPos - xmlOpenGlobalCharPos - 8) + " on Global Poker";
     }
+    xmlUserCharPos = xmlTwitchUserCharPos;
+    retStr += ". ";
   }
   else
   {
