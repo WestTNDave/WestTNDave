@@ -2,6 +2,7 @@
 <html>
   <head>
     <style>
+      .text {color: black;}
       .error {color: red;}
       .msg {color: green;}
     </style>
@@ -14,12 +15,12 @@
 
   <div class='error'><?= $wsErr ? ></div>
   
-  <label for="tname">Twitch Screen Name:</label><span class="error">* <?= $tnameErr; ?></span><br>
+  <label class="text" for="tname">Twitch Screen Name:</label><span class="error">* <?= $tnameErr; ?></span><br>
   <input type="text" id="tname" name="tname" value=""><br><br>
   </span><label for="gname">Global Screen Name:</label><span class="error">* <?= $gnameErr; ?><br>
   <input type="text" id="gname" name="gname" value=""><br><br>
-  <label for="note">Note:</label><br>
-  <textarea id="note" name="note" rows="5" cols="40"></textarea><br><br>
+  <label class="text" for="note">Note:</label><br>
+  <textarea class="text" id="note" name="note" rows="5" cols="40"></textarea><br><br>
   <input type="submit" value="Submit">
 </form>
 
