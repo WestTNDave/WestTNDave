@@ -57,6 +57,7 @@ xml += "<user><twitch>Nightbot</twitch><global>Nightbot</global><note>The ninja 
 xml += "<user><twitch>THETiburon1</twitch><global>thetiburon</global><note>A poker shark in a language and theory you can't understand</note></user>"; 
 xml += "<user><twitch>whoisjohngalt420</twitch><global>whoisjohngalt</global><note>Be careful, he will light you up just like John Wick</note></user>"; 
 xml += "<user><twitch>ezflyfisher1</twitch><global>margaritavillain</global><note>You are going to need a margarita after he reels you in with his slow play</note></user>"; 
+xml += "<user><twitch>MarkFromDarkk</twitch><global>MarkFromDark</global><note>Quite the evil villian on the table</note></user>"; 
 xml += "</users>";
 
 var xmlStr=xml;
