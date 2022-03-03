@@ -60,6 +60,7 @@ xml += "<user><twitch>ezflyfisher1</twitch><global>margaritavillain</global><not
 xml += "<user><twitch>MarkFromDarkk</twitch><global>MarkFromDark</global><note>Quite the evil villian on the table</note></user>"; 
 xml += "<user><twitch>DBYou</twitch><global>Tippy-Toe Joe</global><note>In the factory pushing all the right buttons, you will have to walk on your tippy toes around him</note></user>"; 
 xml += "<user><twitch>jimmy233423</twitch><global>jimmy233423</global><note>It's a jimmy thing for sure for him</note></user>"; 
+xml += "<user><twitch>DrBobMedia</twitch><global>Animos</global><note>Bob encourages you to give him your chips</note></user>"; 
 xml += "</users>";
 
 var xmlStr=xml;
