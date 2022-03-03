@@ -61,6 +61,7 @@ xml += "<user><twitch>MarkFromDarkk</twitch><global>MarkFromDark</global><note>Q
 xml += "<user><twitch>DBYou</twitch><global>Tippy-Toe Joe</global><note>In the factory pushing all the right buttons, you will have to walk on your tippy toes around him</note></user>"; 
 xml += "<user><twitch>jimmy233423</twitch><global>jimmy233423</global><note>It's a jimmy thing for sure for him</note></user>"; 
 xml += "<user><twitch>DrBobMedia</twitch><global>Animos</global><note>Bob encourages you to give him your chips</note></user>"; 
+xml += "<user><twitch>scurvyaxis2080</twitch><global>MrAAces</global><note>Don't get turned upside down when you jam into his Aces</note></user>"; 
 xml += "</users>";
 
 var xmlStr=xml;
