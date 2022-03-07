@@ -63,8 +63,8 @@ xml += "<user><twitch>jimmy233423</twitch><global>jimmy233423</global><note>It's
 xml += "<user><twitch>DrBobMedia</twitch><global>Animos</global><note>Bob encourages you to call so you can see your chips disappear in a cloud of smoke</note></user>"; 
 xml += "<user><twitch>scurvyaxis2080</twitch><global>MrAAces</global><note>Don't get turned upside down when you jam into his Aces</note></user>"; 
 xml += "<user><twitch>Beezy22</twitch><global>Beezy22</global><note>You are in a catch 22 when you think you caught this one, because you are still going to get stung by this bee</note></user>"; 
+xml += "<user><twitch>dogwater515</twitch><global>dmilla</global><note>Grinding away at the tables like only a milla can</note></user>"; 
 xml += "</users>";
-
 var xmlStr=xml;
 
 var retStr = "";
