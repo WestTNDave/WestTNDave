@@ -66,6 +66,7 @@ xml += "<user><twitch>Beezy22</twitch><global>Beezy22</global><note>You are in a
 xml += "<user><twitch>dogwater515</twitch><global>dmilla</global><note>Grinding away at the tables like only a milla can</note></user>"; 
 xml += "<user><twitch>el_brujo_especial_</twitch><global>El Brujo Especial</global><note>Your chance of outwitting this poker sorcerer are slim to none.  Especially since you are not even speaking his language</note></user>"; 
 xml += "<user><twitch>r0clnante</twitch><global>Rocinante2112</global><note>Make sure they are actually putting in the antes and not just rocks</note></user>"; 
+xml += "<user><twitch>ynamesjeffbmx</twitch><global>jeffbmx</global><note>You are his jumping off point to going higher at the table</note></user>"; 
 xml += "</users>";
 var xmlStr=xml;
 
