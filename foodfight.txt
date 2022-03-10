@@ -1,6 +1,10 @@
 var answer = "";
 var ffresponses = ["[User] throws a plate of spaghetti on [ToUser]'s white shirt", "[User] pours chocolate milk all over [ToUser]"];
 ffresponses.push("[User] slams a whip cream pie into [ToUser]'s face");
+ffresponses.push("[User] went Gallagher style on [ToUser] tray of food");
+ffresponses.push("[User] put ghost peppers in [ToUser]'s salsa");
+ffresponses.push("Incoming [ToUser], [User] is catapulting gaucamole bombs your way");
+ffresponses.push("[ToUser] is using their lunch tray to block the raisin pelting from [User]");
 
 answer += ffresponses[Math.floor(Math.random()*ffresponses.length)];
 answer = answer.replaceAll("[User]",u);
