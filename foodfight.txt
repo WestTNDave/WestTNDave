@@ -5,6 +5,9 @@ ffresponses.push("[User] went Gallagher style on [ToUser] tray of food");
 ffresponses.push("[User] put ghost peppers in [ToUser]'s salsa");
 ffresponses.push("Incoming [ToUser], [User] is catapulting gaucamole bombs your way");
 ffresponses.push("[ToUser] is using their lunch tray to block the raisin pelting from [User]");
+ffresponses.push("[User] loaded their super soaker with cherry Hi-C, and is sniping out [ToUser]");
+ffresponses.push("Weatherman [User] says it's cloudy with a chance of meatballs [ToUser]");
+ffresponses.push("[User] asks [ToUser] do you want s'more marshmallows?");
 
 answer += ffresponses[Math.floor(Math.random()*ffresponses.length)];
 answer = answer.replaceAll("[User]",u);
