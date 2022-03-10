@@ -13,10 +13,10 @@ for(i=0; i < streamers.length; i++)
 
 for(i=0; i < streamers.length; i++)
 {
-  answer += "http://twitch.tv/" + streamers[i] + " : ";
+  answer += "http://twitch.tv/" + streamers[i] + " :-";
   for(es=streamers[i].length; es < ll; es++)
   {
-    answer += " ";
+    answer += "-";
   }
   answer += ": ";
 }
