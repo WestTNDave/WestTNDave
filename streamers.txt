@@ -1,7 +1,24 @@
 var answer = "Fellow Global Streamers: ";
 var streamers = [];
-streamers.push(s);
-
+if(s.length > 0)
+{
+  var iSS = 0;
+  var iNC = -1;
+  while (iSS < s.length) 
+  {
+    iNC = s.indexOf(", ", iSS);
+    if(iNC > -1)
+    {
+      streamers.push(s.substr(iSS, iNC-iSS));
+      iSS = iNC + 2;
+    }
+    else
+    {
+      streamers.push(s.substr(iSS, s.length-iSS));
+      iSS = s.length;
+    }
+  }
+}
 var ll = 0;
 for(i=0; i < streamers.length; i++)
 {
