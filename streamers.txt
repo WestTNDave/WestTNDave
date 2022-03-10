@@ -1,4 +1,24 @@
 var answer = "Fellow Global Streamers: ";
-answer += s;
+var streamers = [];
+streamers.push(s);
+
+var ll = 0;
+for(i=0; i < streamers.length; i++)
+{
+  if(streamers[i].length > ll)
+  {
+    ll = streamers[i].length;
+  }
+}
+
+for(i=0; i < streamers.length; i++)
+{
+  answer += "http://twitch.tv/" + streamers[i] + " :-";
+  for(es=streamers[i].length; es < ll; es++)
+  {
+    answer += "-";
+  }
+  answer += ": ";
+}
 
 answer;
