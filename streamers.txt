@@ -1,4 +1,4 @@
-var answer = "Fellow Global Streaming Friends  :";
+var answer = "Fellow Global Streamers: ";
 var streamers = ["jimmy140poker", "WestTNDave", "Nodoogz", "DrBobMedia"];
 streamers.push("icallseat10", "jwk24", "TheLango");
 
@@ -13,12 +13,11 @@ for(i=0; i < streamers.length; i++)
 
 for(i=0; i < streamers.length; i++)
 {
-  answer += "http://twitch.tv/" + streamers[i];
+  answer += "http://twitch.tv/" + streamers[i] + ": ";
   for(es=streamers[i].length; es < ll; es++)
   {
     answer += " ";
   }
-  answer += "  :";
 }
 
 answer;
