@@ -1,6 +1,15 @@
 var answer = "Fellow Global Streamers: ";
-var streamers = ["jimmy140poker", "WestTNDave", "Nodoogz", "DrBobMedia"];
-streamers.push("icallseat10", "jwk24", "TheLango");
+var streamers = ["Agonz1210"];
+streamers.push("DrBobMedia");
+streamers.push("jimmy140poker");
+streamers.push("johnbets");
+streamers.push("jwk24");
+streamers.push("icallseat10");
+streamers.push("Nodoogz");
+streamers.push("TheLango");
+streamers.push("THETiburon1");
+streamers.push("trollmahgullicutti");
+streamers.push("WestTNDave");
 
 var ll = 0;
 for(i=0; i < streamers.length; i++)
