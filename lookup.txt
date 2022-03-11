@@ -43,7 +43,7 @@ xml += "<user><twitch>lemirechris</twitch><global>Chris Lemire</global><note>Fig
 xml += "<user><twitch>texaslefty1</twitch><global>texaslefty1</global><note>All things are bigger in texas, and this southpaw can blind side you like no other</note></user>"; 
 xml += "<user><twitch>cloudgfg</twitch><global>cloudgfg</global><note>Developing a web of plays to ship your chips to his cloud accounts</note></user>"; 
 xml += "<user><twitch>steve_lav</twitch><global>UrNoBueno</global><note>You need a Spanglish dictionary to find out your going to lose to him</note></user>"; 
-xml += "<user><twitch>defnotdogmommy</twitch><global>DogMommy</global><note>The bite is worse than the bark</note></user>"; 
+xml += "<user><twitch>defnotdogmommy</twitch><global>DogMommy</global><note>The bite is worse than the bark</note><note>Hard to be a dog mommy when you are a dog daddy</note><note>Drags the pot and yells across the table whose your daddy</note></user>"; 
 xml += "<user><twitch>brothel_taco</twitch><global>BrothelTaco</global><note>Always doing you dirty in those multiway plays</note></user>"; 
 xml += "<user><twitch>ceezythe01</twitch><global>Seat1</global><note>Likes sitting in seat 1 because has paid off the dealer to flash the cards as they are dealt</note></user>"; 
 xml += "<user><twitch>irishstud14</twitch><global>Irishstud14</global><note>At 14 he was an Irish Stud.  Now he makes your bankroll red, because green comes his way due to the luck of the Irish</note></user>"; 
@@ -68,6 +68,7 @@ xml += "<user><twitch>el_brujo_especial_</twitch><global>El Brujo Especial</glob
 xml += "<user><twitch>r0clnante</twitch><global>Rocinante2112</global><note>Make sure they are actually putting in the antes and not just rocks</note></user>"; 
 xml += "<user><twitch>mynamesjeffbmx</twitch><global>jeffbmx</global><note>You are his jumping off point to going higher at the table</note></user>"; 
 xml += "<user><twitch>DowneyDarkoo</twitch><global>colored trips</global><note>Colorful and dark all at the same time, it's hard to know how to play a two face</note></user>"; 
+xml += "<user><twitch>jts_csgo</twitch><global>sicktits</global><note>A pocket pair specialist, figuring out how to Double Down with those AA</note></user>"; 
 xml += "</users>";
 var xmlStr=xml;
 
