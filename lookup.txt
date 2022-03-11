@@ -116,9 +116,19 @@ else
   var xmlCloseUserCharPos = xmlStr.indexOf("</user>", xmlUserCharPos);
   var strPos = xmlUserCharPos;
   var arrUserNotes = [];
+  var xmlOpenNoteCharPos = xmlStr.indexOf("<note>", strPos);
+  var xmlCloseNoteCharPos = xmlStr.indexOf("</note>", strPos);
+  while(xmlOpenNoteCharPos > 0 && xmlCloseNoteCharPos > 0 && xmlOpenNoteCharPos < xmlCloseUserCharPos)
+  {
+    arrUserNotes.push(xmlStr.substr(xmlOpenNoteCharPos + 6, xmlCloseNoteCharPos - xmlOpenNoteCharPos - 6));
+    strPos = xmlCloseNoteCharPos+7;
+    xmlOpenNoteCharPos = xmlStr.indexOf("<note>", strPos);
+    xmlCloseNoteCharPos = xmlStr.indexOf("</note>", strPos);
+  }
   if(arrUserNotes.length > 0)
   {
     retStr += arrUserNotes[Math.floor(Math.random()*arrUserNotes.length)];
   }
+  
 }
 retStr;
