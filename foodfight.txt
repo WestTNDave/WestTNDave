@@ -8,7 +8,7 @@ ffresponses.push("[ToUser] is using a lunch tray to block the raisin pelting fro
 ffresponses.push("[User] loaded a super soaker with cherry Hi-C, and is sniping out [ToUser]");
 ffresponses.push("Weatherman [User] says it's cloudy with a chance of meatballs [ToUser]");
 ffresponses.push("[User] asks [ToUser] do you want s'more marshmallows?");
-ffresponses.push("Adam Sandler and the Lunch Lady grap [User] and [ToUser] by the ears and make them peel potatoes in the kitchen for throwing Sloppy Joes in the cafeteria");
+ffresponses.push("Adam Sandler and the Lunch Lady grab [User] and [ToUser] by the ears and make them peel potatoes in the kitchen for throwing Sloppy Joes in the cafeteria");
 
 answer += ffresponses[Math.floor(Math.random()*ffresponses.length)];
 answer = answer.replaceAll("[User]",u);
