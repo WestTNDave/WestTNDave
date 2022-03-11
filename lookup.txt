@@ -69,6 +69,7 @@ xml += "<user><twitch>r0clnante</twitch><global>Rocinante2112</global><note>Make
 xml += "<user><twitch>mynamesjeffbmx</twitch><global>jeffbmx</global><note>You are his jumping off point to going higher at the table</note></user>"; 
 xml += "<user><twitch>DowneyDarkoo</twitch><global>colored trips</global><note>Colorful and dark all at the same time, it's hard to know how to play a two face</note></user>"; 
 xml += "<user><twitch>jts_csgo</twitch><global>sicktits</global><note>A pocket pair specialist, figuring out how to Double Down with those AA</note></user>"; 
+xml += "<user><twitch>The_Eraser</twitch><global>Eraizer</global><note>Taking you to school and erasing your chip stack</note></user>"; 
 xml += "</users>";
 var xmlStr=xml;
 
