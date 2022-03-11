@@ -113,28 +113,5 @@ else
     xmlUserCharPos = xmlGlobalUserCharPos;
   }
   
-  /*
-  var xmlCloseUserCharPos = xmlStr.indexOf("</user>", xmlUserCharPos);
-  var strPos = xmlUserCharPos;
-  var arrUserNotes = [];
-  while(strPos < xmlCloseUserCharPos)
-  {
-    var xmlOpenNoteCharPos = xmlStr.indexOf("<note>", strPos);
-    if(xmlOpenNoteCharPos > 0)
-    {
-      var xmlCloseNoteCharPos = xmlStr.indexOf("</note>", strPos);
-      arrUserNotes.push(xmlStr.substr(xmlOpenNoteCharPos + 6, xmlCloseNoteCharPos - xmlOpenNoteCharPos - 6));
-      strPos = xmlCloseNoteCharPos;
-    }
-    else 
-    {
-      strPos = xmlCloseUserCharPos;
-    }
-  }
-  if(arrUserNotes.length > 0)
-  {
-    retStr += arrUserNotes[Math.floor(Math.random()*arrUserNotes.length)];
-  }
-  */
 }
 retStr;
