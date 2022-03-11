@@ -112,8 +112,27 @@ else
     retStr += " is " + xmlStr.substr(xmlOpenTwitchCharPos + 8, xmlCloseTwitchCharPos - xmlOpenTwitchCharPos - 8) + " on Twitch. ";
     xmlUserCharPos = xmlGlobalUserCharPos;
   }
-  var xmlOpenNoteCharPos = xmlStr.indexOf("<note>", xmlUserCharPos);
-  var xmlCloseNoteCharPos = xmlStr.indexOf("</note>", xmlUserCharPos);
-  retStr += xmlStr.substr(xmlOpenNoteCharPos + 6, xmlCloseNoteCharPos - xmlOpenNoteCharPos - 6);
+  
+  var xmlCloseUserCharPos = xmlStr.indexOf("</user>", xmlUserCharPos);
+  var strPos = xmlUserCharPos;
+  var arrUserNotes = [];
+  while(strPos < xmlCloseUserCharPos)
+  {
+    if(xmlStr.indexOf("<note>", strPos) > 0)
+    {
+      var xmlOpenNoteCharPos = xmlStr.indexOf("<note>", strPos);
+      var xmlCloseNoteCharPos = xmlStr.indexOf("</note>", strPos);
+      arrUserNotes.push(xmlStr.substr(xmlOpenNoteCharPos + 6, xmlCloseNoteCharPos - xmlOpenNoteCharPos - 6));
+      strPos = xmlCloseNoteCharPos;
+    }
+    else 
+    {
+      strPos = xmlCloseUserCharPos;
+    }
+  }
+  if(arrUserNotes.length > 0)
+  {
+    retStr += arrUserNotes[Math.floor(Math.random()*arrUserNotes.length)];
+  }
 }
 retStr;
