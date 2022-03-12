@@ -10,7 +10,7 @@ xml += "<user><twitch>winterwren12</twitch><global>Lily Whites</global><note>Coo
 xml += "<user><twitch>rebuyplease</twitch><global>Masl3pyte</global><note>Using his twitch name as a psychological advantage</note><note>Crusher</note></user>";
 xml += "<user><twitch>trist333_</twitch><global>Trist333</global><note>The slot machine specialist</note></user>";
 xml += "<user><twitch>balldy_pokerpappaw</twitch><global>balldy</global><note>Roiling the low budget poker TV channel.</note></user>";
-xml += "<user><twitch>nystallion</twitch><global>PJPain</global><note>The undisputed Home Game 2 crusher.</note><note>Rather ride a horse than the subway</note></user>";
+xml += "<user><twitch>nystallion</twitch><global>PJPain</global><note>The undisputed Home Game 2 crusher</note><note>Rather ride a horse than the subway</note></user>";
 xml += "<user><twitch>crookruss</twitch><global>crookruss</global><note>The trophy winning champion</note><note>Watch out when playing against a crook</note><note>Lovable Loser</note><note>Blind stealer, just like his namesake</note></user>";
 xml += "<user><twitch>trollmahgullicutti</twitch><global>cashinout81</global><note>Hoping he could sing as good as Justin Timberlake</note><note>Cover your cards as he is always trolling for a sneak peek</note><note>An in the money specialist as his screen name suggests</note></user>";
 xml += "<user><twitch>cwk1</twitch><global>cwk1</global><note>Commander of the Whale Killers</note></user>";
@@ -71,6 +71,7 @@ xml += "<user><twitch>DowneyDarkoo</twitch><global>colored trips</global><note>C
 xml += "<user><twitch>jts_csgo</twitch><global>sicktits</global><note>A pocket pair specialist, figuring out how to Double Down with those AA</note></user>"; 
 xml += "<user><twitch>The_Eraser</twitch><global>Eraizer</global><note>Taking you to school and erasing your chip stack</note></user>"; 
 xml += "<user><twitch>zfaerber</twitch><global>SpicyChikn</global><note>You are the one with no head when zfaerber runs hot</note></user>"; 
+xml += "<user><twitch>icallseat10</twitch><global>icallseat10</global><note>The PLO6 Bomb Pot specialist</note><note>The pandemic has made his screen name useless as he no longer has a seat at the table</note></user>"; 
 xml += "</users>";
 var xmlStr=xml;
 
