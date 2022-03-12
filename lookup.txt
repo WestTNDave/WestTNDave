@@ -72,6 +72,8 @@ xml += "<user><twitch>jts_csgo</twitch><global>sicktits</global><note>A pocket p
 xml += "<user><twitch>The_Eraser</twitch><global>Eraizer</global><note>Taking you to school and erasing your chip stack</note></user>"; 
 xml += "<user><twitch>zfaerber</twitch><global>SpicyChikn</global><note>You are the one with no head when zfaerber runs hot</note></user>"; 
 xml += "<user><twitch>icallseat10</twitch><global>icallseat10</global><note>The PLO6 Bomb Pot specialist</note><note>The pandemic has made his screen name useless as he no longer has a seat at the table</note></user>"; 
+xml += "<user><twitch>baseballjr14</twitch><global>HeWelcomesYou</global><note>He definitely wecomes you throwing softball moves his way at the table</note></user>"; 
+xml += "<user><twitch>jeremygrogan</twitch><global>Jeremy Grogan</global><note>The baby yoda of the poker table</note></user>"; 
 xml += "</users>";
 var xmlStr=xml;
 
