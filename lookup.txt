@@ -77,6 +77,7 @@ xml += "<user><twitch>jeremygrogan</twitch><global>Jeremy Grogan</global><note>T
 xml += "<user><twitch>eventhorizon2113</twitch><global>Event21</global><note>Don't stare at the horizon to long or you will be blinded away</note></user>"; 
 xml += "<user><twitch>killerbird19</twitch><global>killerbird19</global><note>Duck hunter specialist</note><note>Loves to bomb those angry birds at your chip stacks</note></user>"; 
 xml += "<user><twitch>theangryrook</twitch><global>AngryRook</global><note>Building chip towers in the form of a castle, from your tilting play</note><note>Upset a at KingSac for his illegal chess screen name</note></user>"; 
+xml += "<user><twitch>slipinjimmie</twitch><global>SlippinJimmie</global><note>Creating a cloud of smoke as he pushes you down the slip in slide</note></user>"; 
 xml += "</users>";
 var xmlStr=xml;
 
