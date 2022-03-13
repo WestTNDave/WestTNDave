@@ -74,6 +74,7 @@ xml += "<user><twitch>zfaerber</twitch><global>SpicyChikn</global><note>You are 
 xml += "<user><twitch>icallseat10</twitch><global>icallseat10</global><note>The PLO6 Bomb Pot specialist</note><note>The pandemic has made his screen name useless as he no longer has a seat at the table</note></user>"; 
 xml += "<user><twitch>baseballjr14</twitch><global>HeWelcomesYou</global><note>He definitely welcomes you throwing softball moves his way at the table</note></user>"; 
 xml += "<user><twitch>jeremygrogan</twitch><global>Jeremy Grogan</global><note>The baby yoda of the poker table</note></user>"; 
+xml += "<user><twitch>eventhorizon2113</twitch><global>Event21</global><note>Don't stare at the horizon to long or you will be blinded away</note></user>"; 
 xml += "</users>";
 var xmlStr=xml;
 
