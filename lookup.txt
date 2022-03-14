@@ -79,6 +79,7 @@ xml += "<user><twitch>killerbird19</twitch><global>killerbird19</global><note>Du
 xml += "<user><twitch>theangryrook</twitch><global>AngryRook</global><note>Building chip towers in the form of a castle, from your tilting play</note><note>Upset a at KingSac for his illegal chess screen name</note></user>"; 
 xml += "<user><twitch>slipinjimmie</twitch><global>SlippinJimmie</global><note>Creating a cloud of smoke as he pushes you down the slip in slide</note></user>";
 xml += "<user><twitch>tino3linda3624</twitch><global>TinMan3624</global><note>Follow the yellow brick road</note></user>"; 
+xml += "<user><twitch>Blooodz10</twitch><global>bloodz10</global><note>A vampire for sucking out on you at the poker table</note></user>"; 
 xml += "</users>";
 var xmlStr=xml;
 
