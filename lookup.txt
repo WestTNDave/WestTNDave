@@ -2,7 +2,7 @@
 var xml = "";
 xml += "<users>";
 xml += "<user><twitch>WestTNDave</twitch><global>WestTNCowboy</global><note>The geek squad to all streamers</note><note>The no delay, cards uncovered, streamer</note><note>Save a horse, ride a cowboy</note></user>";
-xml += "<user><twitch>jimmy140poker</twitch><global>jimmy140</global><note>Red Tag players tilt this dude</note><note>Wants to quit smoking, but is always smoking you on the table</note></user>";
+xml += "<user><twitch>jimmy140poker</twitch><global>jimmy140</global><note>Wants to quit tilting, but the red tag players keep registering for his tournaments</note><note>Wants to quit smoking, but is always smoking you on the table</note></user>";
 xml += "<user><twitch>highsteaks69</twitch><global>AngryInbred</global><note>Drags his family to anger management therapy with him</note><note>Deceptive twitch name since he plays mostly low stakes</note></user>";
 xml += "<user><twitch>MrBillinFla</twitch><global>CLEVE-WILL</global><note>el-cheapo champion</note><note>Between Cleveland and Florida, he's been chasing Lebron's greatness</note></user>";
 xml += "<user><twitch>Chawell</twitch><global>Chawell</global><note>One crazy lucky crusher</note><note>White Claws are his weakness</note></user>";
