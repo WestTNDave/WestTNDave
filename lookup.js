@@ -9,7 +9,7 @@ document.querySelector("#download-file").addEventListener('click', async functio
 });
 
 async function downloadFile() {
-	let response = await fetch("/loadtest.txt");
+	let response = await fetch("https://westtndave.github.io/WestTNDave/loadtest.txt");
 		
 	if(response.status != 200) {
 		throw new Error("Server Error");
