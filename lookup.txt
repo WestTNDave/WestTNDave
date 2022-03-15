@@ -82,6 +82,7 @@ xml += "<user><twitch>tino3linda3624</twitch><global>TinMan3624</global><note>Fo
 xml += "<user><twitch>Blooodz10</twitch><global>bloodz10</global><note>A vampire for sucking out on you at the poker table</note></user>"; 
 xml += "<user><twitch>econbob064</twitch><global>grannyhasnuts</global><note>Bob backs up his econoline van to the door to load up all the cash he just took from you at the tables</note></user>"; 
 xml += "<user><twitch>coolpenguinz1</twitch><global>coolpenguinz</global><note>You are on a slippery slope with this penguin.  When you think you got him underwater they pop up out of nowhere leaving you speechless</note></user>"; 
+xml += "<user><twitch>TheGraveWolf</twitch><global>stretchyclaws</global><note>Watch out for this player when the moon is full, you are likely going to get scratched up if not buried</note></user>"; 
 xml += "</users>";
 var xmlStr=xml;
 
