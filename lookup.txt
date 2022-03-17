@@ -85,6 +85,7 @@ xml += "<user><twitch>coolpenguinz1</twitch><global>coolpenguinz</global><note>Y
 xml += "<user><twitch>TheGraveWolf</twitch><global>StretchyClaws</global><note>Watch out for this player when the moon is full, you are likely going to get scratched up if not buried</note></user>"; 
 xml += "<user><twitch>reidmoto</twitch><global>reidmoto</global><note>Watch out when he flips out that old Moto Razr phone</note></user>"; 
 xml += "<user><twitch>AndreyGuima</twitch><global>AndreyGuima</global><note>The Andre the Giant of the poker table</note></user>"; 
+xml += "<user><twitch>frshlybkd420420</twitch><global>NotWorthitBruh</global><note>You never know what state of mind he's in, so it is not worth getting mixed up in the pot with him</note></user>"; 
 xml += "</users>";
 var xmlStr=xml;
 
