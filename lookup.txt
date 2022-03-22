@@ -90,6 +90,7 @@ xml += "<user><twitch>gaaangsterr</twitch><global>Gaaangsterr</global><note>Inti
 xml += "<user><twitch>RamboWannaB3</twitch><global>StoneColdRiver</global><note>With guns blazing he tries to muscle his way through the table</note><note>Don't wrestle with him in a hand down to the river</note></user>";
 xml += "<user><twitch>spackaladades</twitch><global>Calculxs</global><note>A math wizard and always in the black.  A deadly combo on the poker tables</note></user>";
 xml += "<user><twitch>juice716__</twitch><global>JuiceNY</global><note>Squeezing all the juice out of the fish on the table.</note></user>";
+xml += "<user><twitch>412gage</twitch><global>412gage</global><note>Guage his blind steeling ability</note></user>";
 xml += "</users>";
 var xmlStr=xml;
 
