@@ -94,6 +94,7 @@ xml += "<user><twitch>412gage</twitch><global>412gage</global><note>Guage his bl
 xml += "<user><twitch>quiverdeliverer</twitch><global>MeatyPetey</global><note>This bounty hunter can kill you with the bow or with the cards</note></user>";
 xml += "<user><twitch>nellimelt</twitch><global>Nelli</global><note>The spelling might be off, but don't mess with country grammar y'all</note></user>";
 xml += "<user><twitch>MrGoldenPair</twitch><global>MrGoldenPair</global><note>On the felt or in the club, it will cost you to see deez nuts</note></user>";
+xml += "<user><twitch>jayhtee</twitch><global>jayhtee</global><note>Instead of being an impozer they are a Jay Z imposter</note></user>";
 xml += "</users>";
 var xmlStr=xml;
 
