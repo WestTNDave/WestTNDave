@@ -91,6 +91,8 @@ xml += "<user><twitch>RamboWannaB3</twitch><global>StoneColdRiver</global><note>
 xml += "<user><twitch>spackaladades</twitch><global>Calculxs</global><note>A math wizard and always in the black.  A deadly combo on the poker tables</note></user>";
 xml += "<user><twitch>juice716__</twitch><global>JuiceNY</global><note>Squeezing all the juice out of the fish on the table</note><note>The juice is loose</note></user>";
 xml += "<user><twitch>412gage</twitch><global>412gage</global><note>Guage his blind steeling ability</note></user>";
+xml += "<user><twitch>quiverdeliverer</twitch><global>meatypetey</global><note>This bounty hunter can kill you with the bow or with the cards</note></user>";
+xml += "<user><twitch>nellimelt</twitch><global>Nelli</global><note>The spelling might be off, but don't mess with country grammar</note></user>";
 xml += "</users>";
 var xmlStr=xml;
 
