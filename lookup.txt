@@ -138,7 +138,7 @@ else
     xmlNextUserCharPos = xmlUserCharPos;
     while(-1 != xmlNextUserCharPos && xmlNextUserCharPos < xmlStopUserUserCharPos)
     {
-      xmlNextUserCharPos = xmlStrLC.indexOf("<user>", xmlUserCharPos);
+      xmlNextUserCharPos = xmlStrLC.indexOf("<user>", xmlUserCharPos+1);
       if(-1 != xmlNextUserCharPos && xmlNextUserCharPos < xmlStopUserUserCharPos)
       {
         xmlUserCharPos = xmlNextUserCharPos;
