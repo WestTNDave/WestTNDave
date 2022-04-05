@@ -109,38 +109,70 @@ if (q.length > u.length+1)
 var uLC = u.toLowerCase();
 var xmlTwitchUserCharPos = xmlStrLC.indexOf("<twitch>" + uLC + "</twitch>");
 var xmlGlobalUserCharPos = xmlStrLC.indexOf("<global>" + uLC + "</global>");
-if(-1 == xmlTwitchUserCharPos && -1 == xmlGlobalUserCharPos)
+var xmlIgnitionUserCharPos = xmlStrLC.indexOf("<ign>" + uLC + "</ign>");
+if(-1 == xmlTwitchUserCharPos && -1 == xmlGlobalUserCharPos & -1 == xmlIgnitionUserCharPos)
 {
-  retStr = "No information on user: " + u + " was found.  If you would like your information added please whisper your Global Poker screen name to WestTNDave";
+  retStr = "No information on user: " + u + " was found.  If you would like your information added please whisper your poker site and screen name to WestTNDave";
 }
 else
 {
   var xmlUserCharPos = 0;
+  var xmlNextUserCharPos = 0;
+  var xmlStopUserUserCharPos = 0;
   if(xmlTwitchUserCharPos > 0)
   {
-    retStr = "Twitch User: " + xmlStr.substr(xmlTwitchUserCharPos+8, u.length);
-    if("nightbot" != uLC)
-    {
-      var xmlOpenGlobalCharPos = xmlStr.indexOf("<global>", xmlTwitchUserCharPos);
-      var xmlCloseGlobalCharPos = xmlStr.indexOf("</global>", xmlTwitchUserCharPos);
-      retStr += " is " + xmlStr.substr(xmlOpenGlobalCharPos + 8, xmlCloseGlobalCharPos - xmlOpenGlobalCharPos - 8) + " on Global Poker";
-    }
-    xmlUserCharPos = xmlTwitchUserCharPos;
-    retStr += ". ";
+    xmlUserCharPos = xmlTwitchUserCharPos - 6;
   }
-  else
+  else 
   {
-    retStr = "Global Poker User: " + xmlStr.substr(xmlGlobalUserCharPos+8, u.length);
-    var startPosforTwitch = xmlGlobalUserCharPos-50;
-    if (startPosforTwitch < 0)
+    if(xmlGlobalUserCharPos > 0)
     {
-      startPosforTwitch = 0;
+      xmlStopUserUserCharPos = xmlGlobalUserCharPos;
+      xmlUserCharPos = xmlGlobalUserCharPos - 50;
     }
-    var xmlOpenTwitchCharPos = xmlStr.indexOf("<twitch>", startPosforTwitch);
-    var xmlCloseTwitchCharPos = xmlStr.indexOf("</twitch>", startPosforTwitch);
-    retStr += " is " + xmlStr.substr(xmlOpenTwitchCharPos + 8, xmlCloseTwitchCharPos - xmlOpenTwitchCharPos - 8) + " on Twitch. ";
-    xmlUserCharPos = xmlGlobalUserCharPos;
+    else
+    {
+      xmlStopUserUserCharPos = xmlIgnitionUserCharPos;
+      xmlUserCharPos = xmlIgnitionUserCharPos - 90;
+    }
+    xmlNextUserCharPos = xmlUserCharPos;
+    while((-1 != xmlNextUserCharPos && xmlNextUserCharPos < xmlStopUserUserCharPos)
+    {
+      xmlNextUserCharPos = xmlStrLC.indexOf("<user>", xmlUserCharPos);
+      if(-1 != xmlNextUserCharPos && xmlNextUserCharPos < xmlStopUserUserCharPos)
+      {
+        xmlUserCharPos = xmlNextUserCharPos;
+      }
+    }
   }
+  xmlStopUserUserCharPos = xmlStrLC.indexOf("</user>", xmlUserCharPos);
+  xmlTwitchUserCharPos = xmlStrLC.indexOf("<twitch>", xmlUserCharPos);
+  xmlGlobalUserCharPos = xmlStrLC.indexOf("<global>", xmlUserCharPos);
+  xmlIgnitionUserCharPos = xmlStrLC.indexOf("<ign>", xmlUserCharPos);
+  if(xmlTwitchUserCharPos > 0 && xmlTwitchUserCharPos < xmlStopUserUserCharPos)
+  {
+    var xmlCloseTwitchCharPos = xmlStr.indexOf("</twitch>", xmlTwitchUserCharPos);
+    retStr += "Twitch User: " + xmlStr.substr(xmlTwitchUserCharPos+8, xmlCloseTwitchCharPos - xmlTwitchUserCharPos - 8);
+  }
+  if(xmlGlobalUserCharPos > 0 && xmlGlobalUserCharPos < xmlStopUserUserCharPos)
+  {
+    var xmlCloseGlobalCharPos = xmlStr.indexOf("</global>", xmlGlobalUserCharPos);
+    retStr += " is " + xmlStr.substr(xmlGlobalUserCharPos+8, xmlCloseGlobalCharPos - xmlGlobalUserCharPos - 8) + " on Global Poker";
+  }
+  else if(xmlIgnitionUserCharPos > 0 && xmlIgnitionUserCharPos < xmlStopUserUserCharPos)
+  {
+    var xmlCloseIgnCharPos = xmlStr.indexOf("</global>", xmlIgnitionUserCharPos);
+    if(xmlGlobalUserCharPos > 0 && xmlGlobalUserCharPos < xmlStopUserUserCharPos)
+    {
+      retStr += " and " 
+    }
+    else
+    {
+      retStr += " is " ;
+    }
+    retStr += xmlStr.substr(xmlIgnitionUserCharPos+8, xmlCloseIgnCharPos - xmlIgnitionUserCharPos - 8) + " on Ignition Poker";
+  }
+  retStr += ". ";
   
   var xmlCloseUserCharPos = xmlStr.indexOf("</user>", xmlUserCharPos);
   var strPos = xmlUserCharPos;
