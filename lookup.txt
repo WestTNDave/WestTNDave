@@ -98,6 +98,8 @@ xml += "<user><twitch>jayhtee</twitch><global>jayhtee</global><note>Instead of b
 xml += "<user><twitch>fasternfarther</twitch><global>fasternfarther</global><note>Don't play your hand too fast against him because that turn will take his hand farther</note><note>Fasten your seat belt, his style of play is fast and furious</note></user>";
 xml += "<user><twitch>activia16</twitch><global>Sniper16</global><note>Their activity on the poker table is deadly, don't get caught in the crosshairs</note></user>";
 xml += "<user><twitch>camnutzzz</twitch><global>Acdcameron</global><note>Be careful they are getting back in the black with the nutz</note></user>";
+xml += "<user><twitch>scaboni</twitch><global>xscooby6x</global><note>Don't throw a bone his way at the table, because just like Scooby Doo he knows what you are hiding</note></user>";
+xml += "<user><twitch>Germus_Xeno</twitch><global>GermusXeno</global><note>Using words, languages, and skills above your pay grade.  Fold is your best option against him</note></user>";
 xml += "</users>";
 var xmlStr=xml;
 
