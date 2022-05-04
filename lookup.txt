@@ -100,6 +100,7 @@ xml += "<user><twitch>activia16</twitch><global>Sniper16</global><note>Their act
 xml += "<user><twitch>camnutzzz</twitch><global>Acdcameron</global><note>Be careful they are getting back in the black with the nutz</note></user>";
 xml += "<user><twitch>scaboni</twitch><global>xscooby6x</global><note>Don't throw a bone his way at the table, because just like Scooby Doo he knows what you are hiding</note></user>";
 xml += "<user><twitch>Germus_Xeno</twitch><global>GermusXeno</global><note>Using words, languages, and skills above your pay grade.  Fold is your best option against him</note></user>";
+xml += "<user><twitch>Wiggitywhat</twitch><global>Wiggitwhat</global><note>His card play is like Kris Kross, it'll make you jump jump</note></user>";
 xml += "</users>";
 var xmlStr=xml;
 
