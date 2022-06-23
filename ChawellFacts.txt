@@ -6,6 +6,7 @@ responses.push("Chawell is a Chevy guy");
 responses.push("Chawell hates nystallion");
 responses.push("Chawell wants more big Global Poker checks");
 responses.push("Chawell crushes the home game");
+responses.push("Chawell is a D- streamer");
 
 answer += responses[Math.floor(Math.random()*responses.length)];
 answer;
