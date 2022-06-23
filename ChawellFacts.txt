@@ -1,10 +1,10 @@
 var answer = "";
 var responses = ["Chawell loves the Braves"];
-var responses.push("Chawell loves Country Music");
-var responses.push("Chawell works at a fish restaurant but doesn't know how to fish");
-var responses.push("Chawell is a Chevy guy");
-var responses.push("Chawell hates nystallion");
-var responses.push("Chawell wants more big Global Poker checks");
+responses.push("Chawell loves Country Music");
+responses.push("Chawell works at a fish restaurant but doesn't know how to fish");
+responses.push("Chawell is a Chevy guy");
+responses.push("Chawell hates nystallion");
+responses.push("Chawell wants more big Global Poker checks");
 
 answer += responses[Math.floor(Math.random()*responses.length)];
 answer;
