@@ -5,6 +5,7 @@ responses.push("Chawell works at a fish restaurant but doesn't know how to fish"
 responses.push("Chawell is a Chevy guy");
 responses.push("Chawell hates nystallion");
 responses.push("Chawell wants more big Global Poker checks");
+responses.push("Chawell crushes the home game");
 
 answer += responses[Math.floor(Math.random()*responses.length)];
 answer;
