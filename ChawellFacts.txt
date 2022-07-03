@@ -9,6 +9,8 @@ responses.push("Chawell crushes the home game");
 responses.push("Chawell is a D- streamer");
 responses.push("Chawell collects big posterboard checks like his idol Happy Gilmore");
 responses.push("Chawell and White Claws! Need we say more!");
+responses.push("Chawell an Escape Room Master");
+responses.push("Chawell greater in his own eyes than anyone elses");
 
 answer += responses[Math.floor(Math.random()*responses.length)];
 answer;
